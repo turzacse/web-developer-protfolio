@@ -158,13 +158,81 @@ nav a {
     font-weight: 400;
     line-height: 30px;
 }
-.info-title{
+
+.info-title {
     margin: 0px;
     margin-top: 30px;
     padding: 0px;
     font-weight: normal;
 }
-.info-desc{
+
+.info-desc {
     font-weight: bold;
     margin-bottom: 130px;
+}
+
+/* what i do section  */
+.i-do {
+    margin-left: 345px;
+    margin-right: 345px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.do-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 130px;
+}
+
+.do-desc {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+/* skill section  */
+.skill-container {
+    margin-top: 5px;
+    display: flex;
+    margin-left: 230px;
+    margin-right: 230px;
+    /* text-align: center; */
+    /* padding-left: 155px;
+    padding-right: 155px; */
+    margin-bottom: 130px;
+}
+
+.skill {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-left: 24px;
+}
+
+.skill>img {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.skill-title {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+.skill-desc {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-left: 33px;
+    margin-bottom: 30px;
+    margin-right: 33px;
 }
